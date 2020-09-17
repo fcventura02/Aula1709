@@ -1,2 +1,2 @@
 # Aula1709_inicial
-Scratch of the project
+Scratch of the BMI project
