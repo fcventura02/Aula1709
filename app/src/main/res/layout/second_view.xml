@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <TextView
+        android:id="@+id/tv2"
+        style="@style/tv_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/tv2_recomendacoes"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btm_back"
+        android:layout_width="38dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_arrow"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="138dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btm_back"
+        app:srcCompat="@drawable/ic_doctor"
+        android:contentDescription="@string/doctor_logo" />
+
+    <TextView
+        android:id="@+id/doctor_result"
+        style="@style/tv_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/info_doctor"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/ic_diet"
+        android:contentDescription="@string/aliment_logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/tv_style"
+        android:textColor="#5785EB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/imc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:maxWidth="100dp"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints">
+
+        <TableRow>
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/imc" />
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/classification" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="start"
+                android:padding="3dip"
+                android:text="@string/colum_imc_magreza" />
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="end"
+                android:padding="3dip"
+                android:text="@string/thinness" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="start"
+                android:padding="3dip"
+                android:text="@string/condition_18_24" />
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="end"
+                android:padding="3dip"
+                android:text="@string/normal" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="start"
+                android:padding="3dip"
+                android:text="@string/condition_25_30" />
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="end"
+                android:padding="3dip"
+                android:text="@string/overweight" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="start"
+                android:padding="3dip"
+                android:text="@string/condition_30_39" />
+
+            <TextView
+                style="@style/tv_style"
+                android:gravity="end"
+                android:padding="3dip"
+                android:text="@string/obesity" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

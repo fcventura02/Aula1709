@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimary">#EBD93F</color>
+    <color name="colorPrimaryDark">#EBD93F</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="bg_color">#EBD93F</color>
+    <color name="btm_color">#5785EB</color>
+    <color name="tv_color">#6C0E88</color>
+    <color name="tv_color_bold">#791797</color>
 </resources>

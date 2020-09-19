@@ -1,3 +1,39 @@
 <resources>
-    <string name="app_name">Aula1709</string>
+    <string name="app_name">IMC</string>
+    <string name="tv2_recomendacoes">
+        Alimente-se bem, é fundamental alimentar-se principalmente de alimentos in natura ou minimamente processados,
+        evite utilizar grandes quantidades de óleos, gorduras, sal e açúcar,
+        evite consumir alimentos processados em excesso. Realize exercicios regularmente com duração de 1 hora almenos.
+    </string>
+    <string name="app_tela_2">secondView</string>
+    <string name="imc_format">%.2f</string>
+    <string name="colum_imc_magreza">MENOR QUE 18,5</string>
+    <string name="colum_peso_magreza"><![CDATA[<58Kg]]></string>
+    <string name="info_doctor">O seu IMC é de </string>
+    <string name="complement_result">kg/m2, por isso você está </string>
+    <string name="abaixo_peso"> abaixo do peso</string>
+    <string name="adequado_peso"> com peso Adequado</string>
+    <string name="sobrepeso_peso"> com sobrepeso</string>
+    <string name="obesidade1">Obesidade de Classe 1</string>
+    <string name="obesidade2">Obesidade de Classe 2</string>
+    <string name="obesidade3">Obesidade de Classe 3</string>
+    <string name="check_idoso">idade maior que 65 anos</string>
+    <string name="altura">Altura</string>
+    <string name="hint_altura">1.60</string>
+    <string name="peso">Peso</string>
+    <string name="logo">logo</string>
+    <string name="hint_peso">60</string>
+    <string name="btm_confirm">Confirmar</string>
+    <string name="btm_clear">Limpar</string>
+    <string name="doctor_logo">doctor logo</string>
+    <string name="aliment_logo">Aliment logo</string>
+    <string name="imc">IMC</string>
+    <string name="classification">CLASSIFICAÇÃO</string>
+    <string name="thinness">MAGREZA</string>
+    <string name="condition_18_24">ENTRE 18.5 E 24.9</string>
+    <string name="normal">NORMAL</string>
+    <string name="condition_25_30">ENTRE 24.9 E 30</string>
+    <string name="overweight">SOBREPESO</string>
+    <string name="condition_30_39">ENTRE 30,0 E 39,9</string>
+    <string name="obesity">OBESIDADE</string>
 </resources>
